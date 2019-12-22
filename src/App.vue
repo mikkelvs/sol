@@ -4,6 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
       <button class="button">Test</button>
+      <i class="fas fa-camera"></i>
       <pre>HEJ</pre>
     </div>
     <router-view/>
@@ -14,6 +15,11 @@
 
 @import "~foundation-sites/scss/foundation";
 @include foundation-everything;
+
+$fa-font-path: "/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

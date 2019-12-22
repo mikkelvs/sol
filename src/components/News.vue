@@ -30,9 +30,9 @@ export default {
     },
      mounted() {
          const vm = this;
-         console.log('LORT', process.env);
+         console.log('LORT', process.env.VUE_APP_API_BASE_URL);
 
-         axios.get('wordpress/wp-json/wp/v2/posts').then((response) => {
+         axios.get('/wp/v2/posts').then((response) => {
              vm.posts = response.data;
          });
      }
