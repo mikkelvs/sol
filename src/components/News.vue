@@ -35,6 +35,8 @@ export default {
          axios.get('/wp/v2/posts').then((response) => {
              vm.posts = response.data;
          });
+
+         $('ul').css('color', 'red');
      }
 }
 

@@ -41,4 +41,20 @@ $fa-font-path: "/webfonts";
     }
   }
 }
+
+@font-face {
+  font-family: InriaSerif;
+  src: url(../public/webfonts/InriaSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: MaShanZhengRegular;
+  src: url(../public/webfonts/MaShanZheng-Regular.ttf);
+}
+
+h1 {
+  color: blue;
+  font-family: MaShanZhengRegular;
+}
+
 </style>
