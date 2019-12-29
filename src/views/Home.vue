@@ -1,6 +1,8 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+  <div class="home" v-cloak>
+    <video id="myVideo" width="100%" autoplay muted>
+      <source src="../assets/hero_compressed.mp4" type="video/mp4" />
+    </video>
     <news />
   </div>
 </template>
@@ -14,6 +16,10 @@ export default {
   name: 'home',
   components: {
     News
+  },
+  mounted() {
+    var vid = document.getElementById("myVideo");
+    vid.playbackRate = 0.5; 
   }
 }
 </script>

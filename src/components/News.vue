@@ -7,7 +7,7 @@
 
 
         <ul>
-            <li v-for="(post, index) in posts" :key="index">{{ post.title.rendered }}</li>
+            <li v-for="(post, index) in posts" :key="index"><pre>{{ post }}</pre></li>
         </ul>
 
     </div>
