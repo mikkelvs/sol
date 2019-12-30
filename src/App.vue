@@ -80,7 +80,7 @@
 // @include foundation-visibility-classes;
 // @include foundation-prototype-classes;
 
-$fa-font-path: "/webfonts";
+$fa-font-path: "./assets/fonts";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "~@fortawesome/fontawesome-free/scss/solid.scss";
 
