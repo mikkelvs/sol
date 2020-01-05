@@ -2,13 +2,20 @@
 
     <div>
 
-        <h1>News</h1>
+        <h2>News</h2>
 
 
 
-        <ul>
-            <li v-for="(post, index) in posts" :key="index"><pre>{{ post }}</pre></li>
-        </ul>
+
+
+    
+            <div class="news-item" v-for="(post, index) in posts" :key="index">
+            <h5><i class="fas fa-skull"></i>{{ post.title.rendered }}</h5>
+            <div v-html="post.content.rendered"></div>
+            
+                
+            </div>
+        
 
     </div>
 
@@ -41,3 +48,12 @@ export default {
 }
 
 </script>
+
+<style>
+
+.news-item {
+    border-bottom: 1px dashed #ffffff;
+    margin-bottom: 2rem;
+}
+
+</style>
