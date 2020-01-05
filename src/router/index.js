@@ -1,7 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Shows from '../views/Shows.vue'
+import Live from '../views/Live.vue'
+import Bio from '../views/Bio.vue';
+import Media from '../views/Media.vue'
+import Press from '../views/Press.vue';
 
 Vue.use(VueRouter)
 
@@ -20,10 +23,25 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/shows',
-    name: 'shows',
-    component: Shows
-  }
+    path: '/live',
+    name: 'live',
+    component: Live
+  },
+  {
+    path: '/bio',
+    name: 'bio',
+    component: Bio
+  },
+  {
+    path: '/media',
+    name: 'media',
+    component: Media
+  },
+  {
+    path: '/press',
+    name: 'press',
+    component: Press
+  },
 ]
 
 const router = new VueRouter({

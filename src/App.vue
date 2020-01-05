@@ -15,10 +15,10 @@
           <div class="cell">
 
             <div id="nav">
-              <router-link to="/"><i class="fas fa-book-dead"></i> Bio</router-link>
-              <router-link to="/about"><i class="fas fa-music"></i> Live</router-link>
-              <router-link to="/shows"><i class="fas fa-record-vinyl"></i> Media</router-link>
-              <router-link to="/shows"><i class="fas fa-file-download"></i> Press &amp; Booking</router-link>
+              <router-link to="/bio"><i class="fas fa-book-dead"></i> Bio</router-link>
+              <router-link to="/live"><i class="fas fa-music"></i> Live</router-link>
+              <router-link to="/media"><i class="fas fa-record-vinyl"></i> Media</router-link>
+              <router-link to="/press"><i class="fas fa-file-download"></i> Press &amp; Booking</router-link>
             </div>
 
           </div>
@@ -40,14 +40,50 @@
 
       <div class="grid-container">
 
- <h3>Stormtroopers Of Love</h3>
+        <h3>Stormtroopers Of Love</h3>
 
-        <div class="cell medium-4">
-         <h4>Booking</h4>
-         sdsaafafadffa
+        <div class="grid-x grid-margin-x">
+
+          
+
+          <div class="cell medium-6 footer-column">
+            <h4>Booking</h4>
+            Den Episke So<br />
+            Sovej 3<br />
+            Soby<br /><br />
+            
+            
+
+            <div class="grid-x">
+              <div class="cell small-1 footer-icon"><i class="fas fa-phone"></i></div>
+            <div class="cell small-11"><a href="">(+45) 1234 5678</a></div>
+              <div class="cell small-1 footer-icon"><i class="fas fa-at"></i></div>
+            <div class="cell small-11"><a href="">booking@stormtroopersoflove.dk</a></div>
+            <div class="cell small-1 footer-icon"><i class="fas fa-home"></i></div>
+            <div class="cell small-11"><a href="">www.stormtroopersoflove.dk</a></div>
+            <div class="cell small-1 footer-icon"><i class="fab fa-facebook-square"></i></div>
+            <div class="cell small-11"><a href="">www.facebook.com/stormtroopersoflove</a></div>
+            <div class="cell small-1 footer-icon"><i class="fab fa-instagram"></i></div>
+            <div class="cell small-11"><a href="">www.instagram.com/stormtroopersoflove</a></div>
+            <div class="cell small-1 footer-icon"><i class="fab fa-youtube"></i></div>
+            <div class="cell small-11"><a href="">www.youtube.com/stormtroopersoflove</a></div>
+            </div>
+
+          </div>
+          <div class="cell medium-3 footer-column">
+            <h4>Label</h4>
+            <p>
+              <strong>Stormtroopers Of Love</strong> is proudly presented by
+              <a href="">Hola Pete Records</a>
+            </p>
+            
+            
+
+          </div>
+          <div class="cell medium-3 footer-column">
+            <img src="./assets/hola_pete_records.png"></div>
+
         </div>
-        <div class="cell medium-4"></div>
-        <div class="cell medium-4"><img src="./assets/hola_pete_records.png"></div>
       </div>
 
     </footer>
@@ -138,7 +174,7 @@ body {
 
 #app {
   //font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  font-family: 'Courier Prime', monospace;
+  font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   //text-align: center;
@@ -177,6 +213,7 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 #nav {
   padding: 1rem;
@@ -283,7 +320,24 @@ footer {
   color: $text-color;
 
   h1, h2, h3, h4, h5, h6 {
+    
+  }
+
+  h4 {
     color: $footer-header-color;
+    font-family: 'Londrina Solid', cursive;
+  }
+
+  .footer-column {
+    margin-bottom: 2rem;
+
+        @include breakpoint(medium) {
+    margin-bottom: auto;
+}
+  }
+
+  .footer-icon {
+    text-align: left;
   }
 }
 

@@ -1,7 +1,7 @@
 <template>
   <div class="home" v-cloak>
 
-    <h1>Greetings from beyond the grave ...
+    <h1>{{ title }}
     </h1>
 
 <div class="grid-x grid-margin-x">
@@ -59,16 +59,17 @@
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue';
 import News from '@/components/News.vue';
+import PageMixin from '../mixins/Pages';
 
 export default {
   name: 'home',
   components: {
     News
   },
+  mixins: [ PageMixin ],
   mounted() {
-    // var vid = document.getElementById("myVideo");
-    // vid.playbackRate = 0.5; 
-  }
+        this.getPage(28);
+    }
 }
 </script>
 
