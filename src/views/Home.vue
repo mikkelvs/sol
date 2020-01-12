@@ -14,16 +14,17 @@
 
   <div class="grid-x grid-margin-x">
     <div class="cell large-3">
-      <a class="button btn-social"><i class="fab fa-facebook-square"></i> Facebook</a>
+      <a class="button btn-social" href="https://www.facebook.com/stormtroopersoflove/"><i class="fab fa-facebook-square"></i> Facebook</a>
     </div>
     <div class="cell large-3">
-      <a class="button btn-social"><i class="fab fa-instagram"></i> Instagram</a>
+      <a class="button btn-social" href="https://www.instagram.com/stormtroopersoflove/"><i class="fab fa-instagram"></i> Instagram</a>
     </div>
 <div class="cell large-3">
-      <a class="button btn-social"><i class="fab fa-bandcamp"></i> BandCamp</a>
+      <a class="button btn-social" href="https://stormtroopersoflove.bandcamp.com/"><i class="fab fa-bandcamp"></i> BandCamp</a>
     </div>
     <div class="cell large-3">
-      <a class="button btn-social"><i class="fab fa-youtube"></i> YouTube</a>
+      <a class="button btn-social" href="https://www.youtube.com/channel/
+            UC23uwjz1epS2WBEwccSEDQw"><i class="fab fa-youtube"></i> YouTube</a>
     </div>
   </div>
 

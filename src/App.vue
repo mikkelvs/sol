@@ -5,7 +5,6 @@
       <a href="/"><img src="./assets/logo_transparent.png"></a>
     </div>
 
-
     <div id="body">
 
       <div class="grid-container">
@@ -31,8 +30,6 @@
 
           </div>
         </div>
-
-
       </div>
     </div>
 
@@ -44,43 +41,45 @@
 
         <div class="grid-x grid-margin-x">
 
-          
-
           <div class="cell medium-6 footer-column">
             <h4>Booking</h4>
             Den Episke So<br />
             Sovej 3<br />
             Soby<br /><br />
-            
-            
 
             <div class="grid-x">
               <div class="cell small-1 footer-icon"><i class="fas fa-phone"></i></div>
-            <div class="cell small-11"><a href="">(+45) 1234 5678</a></div>
+              <div class="cell small-11"><a href="tel:+4512345678">(+45) 1234 5678</a></div>
               <div class="cell small-1 footer-icon"><i class="fas fa-at"></i></div>
-            <div class="cell small-11"><a href="">booking@stormtroopersoflove.dk</a></div>
-            <div class="cell small-1 footer-icon"><i class="fas fa-home"></i></div>
-            <div class="cell small-11"><a href="">www.stormtroopersoflove.dk</a></div>
-            <div class="cell small-1 footer-icon"><i class="fab fa-facebook-square"></i></div>
-            <div class="cell small-11"><a href="">www.facebook.com/stormtroopersoflove</a></div>
-            <div class="cell small-1 footer-icon"><i class="fab fa-instagram"></i></div>
-            <div class="cell small-11"><a href="">www.instagram.com/stormtroopersoflove</a></div>
-            <div class="cell small-1 footer-icon"><i class="fab fa-youtube"></i></div>
-            <div class="cell small-11"><a href="">www.youtube.com/stormtroopersoflove</a></div>
+              <div class="cell small-11"><a
+                  href="mailto:booking@stormtroopersoflove.dk">booking@stormtroopersoflove.dk</a></div>
+              <div class="cell small-1 footer-icon"><i class="fas fa-home"></i></div>
+              <div class="cell small-11"><a href="http://www.stormtroopersoflove.dk">www.stormtroopersoflove.dk</a>
+              </div>
+              <div class="cell small-1 footer-icon"><i class="fab fa-facebook-square"></i></div>
+              <div class="cell small-11"><a
+                  href="https://www.facebook.com/stormtroopersoflove/">www.facebook.com/stormtroopersoflove</a></div>
+              <div class="cell small-1 footer-icon"><i class="fab fa-instagram"></i></div>
+              <div class="cell small-11"><a
+                  href="https://www.instagram.com/stormtroopersoflove/">www.instagram.com/stormtroopersoflove</a></div>
+              <div class="cell small-1 footer-icon"><i class="fab fa-youtube"></i></div>
+              <div class="cell small-11"><a href="https://www.youtube.com/channel/
+            UC23uwjz1epS2WBEwccSEDQw">www.youtube.com/stormtroopersoflove</a></div>
+              <div class="cell small-1 footer-icon"><i class="fab fa-bandcamp"></i></div>
+              <div class="cell small-11"><a
+                  href="https://stormtroopersoflove.bandcamp.com/">stormtroopersoflove.bandcamp.com/</a></div>
             </div>
 
           </div>
-          <div class="cell medium-3 footer-column">
+          <div class="cell medium-3 small-6 footer-column">
             <h4>Label</h4>
             <p>
               <strong>Stormtroopers Of Love</strong> is proudly presented by
-              <a href="">Hola Pete Records</a>
+              <a href="https://www.discogs.com/label/252520-Hola-Pete-Records">Hola Pete Records</a>
             </p>
-            
-            
 
           </div>
-          <div class="cell medium-3 footer-column">
+          <div class="cell medium-3 small-6 footer-column">
             <img src="./assets/hola_pete_records.png"></div>
 
         </div>
@@ -93,6 +92,23 @@
 
 <style lang="scss">
 
+// settings
+$background-color-top: #000000;
+$background-color-bottom: #222222;
+$text-color: #ffffff;
+$nav-color: #ffffff;
+$brand-background-color: #280349;
+$brand-color-main: #00ed00;
+$brand-color-secondary: mediumvioletred;
+$footer-background-color: #000000;
+$footer-header-color: #777777;
+$header-font: 'Bangers',
+cursive;
+$secondary-header-font: 'Bangers',
+cursive;
+$header-icon-color: #85c1ca;
+
+@import './scss/_settings';
 @import "~foundation-sites/scss/foundation";
 
 // Global styles
@@ -147,7 +163,7 @@
 // Helpers
 // @include foundation-float-classes;
 // @include foundation-flex-classes;
-// @include foundation-visibility-classes;
+@include foundation-visibility-classes;
 // @include foundation-prototype-classes;
 
 $fa-font-path: "./assets/fonts";
@@ -155,70 +171,132 @@ $fa-font-path: "./assets/fonts";
 @import "~@fortawesome/fontawesome-free/scss/solid.scss";
 @import "~@fortawesome/fontawesome-free/scss/brands.scss";
 
-$background-color-top: #000000;
-$background-color-bottom: #222222;
-$text-color: #ffffff;
-$nav-color: #ffffff;
-$brand-background-color: #280349;;
-$brand-color-main: #00ed00;
-$brand-color-secondary: mediumvioletred;
-$footer-background-color: #000000;
-$footer-header-color: #777777;
+// fonts
+@font-face {
+  font-family: 'InriaSerif';
+  src: url(./assets/fonts/InriaSerif-Regular.ttf);
+}
 
+@font-face {
+  font-family: 'MaShanZhengRegular';
+  src: url(./assets/fonts/MaShanZheng-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Bangers';
+  src: url('./assets/fonts/Bangers-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./assets/fonts/CourierPrime-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Londrina Solid';
+  src: url('./assets/fonts/LondrinaSolid-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/fonts/Lato-Regular.ttf');
+}
 
 html,
 body {
   height: 100%;
-  
+
 }
 
 #app {
-  //font-family: 'Avenir', Helvetica, Arial, sans-serif;
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  //text-align: center;
   color: $text-color;
-  //background-color: $background-color-top;
-  
-  //background-attachment: fixed;
-  
-  
-  
   height: 100%;
-
-  @include breakpoint(medium) {
-    //background-size: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $brand-color-main;
+  font-family: $header-font;
+}
 
+h1 {
+  margin-bottom: 1rem;
+}
 
-  #logo {
-    text-align: center;
-    padding-top: 2rem;
-    width: 100%;
-    background-color: $brand-background-color;
-    background-image: url('./assets/bg.png');
-    background-position: bottom;
-    background-repeat: no-repeat;
+h1,
+h2,
+h3 {
+  text-shadow: 1px 1px #fff;
+}
 
-    img {
-      max-width: 10rem;
-    }
+h2 {
+  margin-top: 2rem;
+}
 
+h5 {
+  color: $brand-color-secondary;
+  font-family: $secondary-header-font;
+
+  .fas {
+    color: $header-icon-color;
+    margin-right: 0.5em;
   }
 }
 
-// fonts
-@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.btn-social {
+  border-radius: 5px;
+  font-family: $header-font;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+
+  .fab {
+    margin-right: 0.2rem;
+  }
+}
+
+#logo {
+  text-align: center;
+  padding-top: 2rem;
+  width: 100%;
+  background-color: $brand-background-color;
+  background-image: url('./assets/bg.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+  img {
+    max-width: 10rem;
+
+    @include breakpoint(medium) {
+      max-width: 20rem;
+    }
+  }
+}
 
 #nav {
   padding: 1rem;
-text-align: center;
-  font-family: 'Bangers', cursive;
+  text-align: center;
+  font-family: $header-font;
 
   a {
     font-weight: bold;
@@ -227,20 +305,21 @@ text-align: center;
     font-size: 1rem;
 
     @include breakpoint(medium) {
-    margin-right: 3rem;
-}
+      margin-right: 3rem;
+      font-size: 1.5rem;
+    }
 
     &:last-of-type {
       margin-right: auto;
     }
 
     .fas {
-      color: lightgreen;
+      color: $brand-color-secondary;
       margin-right: 0.2rem;
     }
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: $brand-color-main;
     }
   }
 }
@@ -251,89 +330,29 @@ text-align: center;
   padding-bottom: 2rem;
 }
 
-@font-face {
-  font-family: InriaSerif;
-  src: url(./assets/fonts/InriaSerif-Regular.ttf);
-}
-
-@font-face {
-  font-family: MaShanZhengRegular;
-  src: url(./assets/fonts/MaShanZheng-Regular.ttf);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: $brand-color-main;
-  font-family: 'Bangers', cursive;
-}
-
-h2 {
-  margin-top: 2rem;
-}
-
-h1 {
-  
-  //text-align: center;
-  margin-bottom: 1rem;
-}
-
-h5 {
-  color: $brand-color-secondary;
-  font-family: 'Londrina Solid', cursive;
-
-  .fas {
-    color: #85c1ca;
-    margin-right: 0.5em;
-  }
-}
-
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
-}
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-  opacity: 0;
-}
-
-[v-cloak] {
-  display: none;
-}
-
-.btn-social {
-  border-radius: 5px;
-  background-color: $brand-color-secondary;
-  font-family: 'Bangers', cursive;
-  width: 100%;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-
-
-
-  .fab {
-      margin-right: 0.2rem;
-    }
-}
-
 footer {
-  float:left;
+  float: left;
   width: 100%;
   background-color: $footer-background-color;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+
   color: $text-color;
 
-  h1, h2, h3, h4, h5, h6 {
-    
+  @include breakpoint(medium) {
+    padding-bottom: 2rem;
   }
 
   h4 {
     color: $footer-header-color;
-    font-family: 'Londrina Solid', cursive;
+    font-family: $secondary-header-font;
   }
 
   .footer-column {
     margin-bottom: 2rem;
 
-        @include breakpoint(medium) {
-    margin-bottom: auto;
-}
+    @include breakpoint(medium) {
+      margin-bottom: auto;
+    }
   }
 
   .footer-icon {
