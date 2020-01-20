@@ -173,28 +173,8 @@ $fa-font-path: "./assets/fonts";
 
 // fonts
 @font-face {
-  font-family: 'InriaSerif';
-  src: url(./assets/fonts/InriaSerif-Regular.ttf);
-}
-
-@font-face {
-  font-family: 'MaShanZhengRegular';
-  src: url(./assets/fonts/MaShanZheng-Regular.ttf);
-}
-
-@font-face {
   font-family: 'Bangers';
   src: url('./assets/fonts/Bangers-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Courier Prime';
-  src: url('./assets/fonts/CourierPrime-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Londrina Solid';
-  src: url('./assets/fonts/LondrinaSolid-Regular.ttf');
 }
 
 @font-face {

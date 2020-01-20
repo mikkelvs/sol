@@ -13,7 +13,6 @@ export default {
             const vm = this;
 
             axios.get('/wp/v2/pages/' + id).then((response) => {
-                console.log('LIVE', response);
                 vm.title = response.data.title.rendered;
                 vm.content = response.data.content.rendered;
     

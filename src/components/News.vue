@@ -37,7 +37,6 @@ export default {
     },
      mounted() {
          const vm = this;
-         console.log('LORT', process.env.VUE_APP_API_BASE_URL);
 
          axios.get('/wp/v2/posts?categories=2').then((response) => {
              vm.posts = response.data;
