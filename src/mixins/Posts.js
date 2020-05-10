@@ -1,5 +1,3 @@
-
-
 import moment from 'moment';
 
 export default {
@@ -8,9 +6,6 @@ export default {
         return {
             posts: []
         }
-    },
-    mounted() {
-        console.log(moment);
     },
     methods: {
         parseDate(date) {

@@ -1,26 +1,13 @@
 <template>
-
     <div>
 
         <h2>News</h2>
 
-
-
-
-
-    
-            <div class="news-item" v-for="(post, index) in posts" :key="index">
+        <div class="news-item" v-for="(post, index) in posts" :key="index">
             <h5><i class="fas fa-skull"></i>{{ post.title.rendered }}</h5>
             <div v-html="post.content.rendered"></div>
-            
-                
-            </div>
-        
-
+        </div>
     </div>
-
-    
-
 </template>
 
 <script>
