@@ -1,36 +1,23 @@
 <template>
     <div class="auto-resizable-iframe">
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/9Ox3ValuuO4" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
+        <div v-html="content"></div>
     </div>
 </template>
 
 <script>
-import axios from 'axios';
+import PageMixin from '../mixins/Pages.js';
 
 export default {
     name: 'VideoPlayer',
+    mixins: [ PageMixin ],
     data() {
         return {
             video: null
         }
     },
     mounted() {
-        this.setvideo();
-    },
-    methods: {
-        setvideo() {
-            const vm = this;
-
-            axios.get('/wp/v2/posts/44').then((response) => {
-                vm.video = response.data.content.rendered;
-            });
-        }
+        this.getPage(48);
     }
-
 }
 </script>
 
