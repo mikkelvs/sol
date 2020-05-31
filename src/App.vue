@@ -43,31 +43,25 @@
 
           <div class="cell medium-6 footer-column">
             <h4>Booking</h4>
-            Den Episke So<br />
-            Sovej 3<br />
-            Soby<br /><br />
 
             <div class="grid-x">
-              <div class="cell small-1 footer-icon"><i class="fas fa-phone"></i></div>
-              <div class="cell small-11"><a href="tel:+4512345678">(+45) 1234 5678</a></div>
               <div class="cell small-1 footer-icon"><i class="fas fa-at"></i></div>
               <div class="cell small-11"><a
-                  href="mailto:booking@stormtroopersoflove.dk">booking@stormtroopersoflove.dk</a></div>
+                  href="mailto:booking@stormtroopersoflove.dk">Booking</a></div>
               <div class="cell small-1 footer-icon"><i class="fas fa-home"></i></div>
-              <div class="cell small-11"><a href="http://www.stormtroopersoflove.dk">www.stormtroopersoflove.dk</a>
+              <div class="cell small-11"><a href="http://www.stormtroopersoflove.dk">Web</a>
               </div>
               <div class="cell small-1 footer-icon"><i class="fab fa-facebook-square"></i></div>
               <div class="cell small-11"><a
-                  href="https://www.facebook.com/stormtroopersoflove/">www.facebook.com/stormtroopersoflove</a></div>
+                  href="https://www.facebook.com/stormtroopersoflove/">Facebook</a></div>
               <div class="cell small-1 footer-icon"><i class="fab fa-instagram"></i></div>
               <div class="cell small-11"><a
-                  href="https://www.instagram.com/stormtroopersoflove/">www.instagram.com/stormtroopersoflove</a></div>
+                  href="https://www.instagram.com/stormtroopersoflove/">Instagram</a></div>
               <div class="cell small-1 footer-icon"><i class="fab fa-youtube"></i></div>
-              <div class="cell small-11"><a href="https://www.youtube.com/channel/
-            UC23uwjz1epS2WBEwccSEDQw">www.youtube.com/stormtroopersoflove</a></div>
+              <div class="cell small-11"><a href="https://www.youtube.com/channel/UC23uwjz1epS2WBEwccSEDQw">YouTube</a></div>
               <div class="cell small-1 footer-icon"><i class="fab fa-bandcamp"></i></div>
               <div class="cell small-11"><a
-                  href="https://stormtroopersoflove.bandcamp.com/">stormtroopersoflove.bandcamp.com/</a></div>
+                  href="https://stormtroopersoflove.bandcamp.com/">Bandcamp</a></div>
             </div>
 
           </div>

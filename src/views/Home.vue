@@ -24,8 +24,7 @@
                 class="fab fa-bandcamp"></i> BandCamp</a>
           </div>
           <div class="cell large-3">
-            <a class="button btn-social" href="https://www.youtube.com/channel/
-            UC23uwjz1epS2WBEwccSEDQw"><i class="fab fa-youtube"></i> YouTube</a>
+            <a class="button btn-social" href="https://www.youtube.com/channel/UC23uwjz1epS2WBEwccSEDQw"><i class="fab fa-youtube"></i> YouTube</a>
           </div>
         </div>
 

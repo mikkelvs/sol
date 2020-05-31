@@ -16,7 +16,7 @@ export default {
         }
     },
     mounted() {
-        this.getPage(48);
+        this.getPage(76);
     }
 }
 </script>

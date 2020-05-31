@@ -5,7 +5,7 @@
         <div v-html="content"></div>
 
         <div class="news-item" v-for="(post, index) in posts" :key="index">
-            <h5><i class="fas fa-skull"></i>{{ parseDate(post.date)}}: {{ post.title.rendered }}</h5>
+            <h5><i class="fas fa-skull"></i><span v-html="post.title.rendered" /></h5>
             <div v-html="post.content.rendered"></div>
         </div>
     </div>
@@ -30,7 +30,7 @@ export default {
     mounted() {
         const vm = this;
 
-        axios.get('/wp/v2/posts?categories=3').then((response) => {
+        axios.get('/wp/v2/posts?categories=3&order=asc').then((response) => {
             vm.posts = response.data;
         });
 
