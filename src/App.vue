@@ -61,7 +61,7 @@
               <div class="cell small-11"><a href="https://www.youtube.com/channel/UC23uwjz1epS2WBEwccSEDQw">YouTube</a></div>
               <div class="cell small-1 footer-icon"><i class="fab fa-bandcamp"></i></div>
               <div class="cell small-11"><a
-                  href="https://stormtroopersoflove.bandcamp.com/">Bandcamp</a></div>
+                  href="https://stormtroopersoflove.bandcamp.com/">Webshop - Bandcamp</a></div>
             </div>
 
           </div>

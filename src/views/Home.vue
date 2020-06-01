@@ -21,7 +21,7 @@
           </div>
           <div class="cell large-3">
             <a class="button btn-social" href="https://stormtroopersoflove.bandcamp.com/"><i
-                class="fab fa-bandcamp"></i> BandCamp</a>
+                class="fab fa-bandcamp"></i> Webshop</a>
           </div>
           <div class="cell large-3">
             <a class="button btn-social" href="https://www.youtube.com/channel/UC23uwjz1epS2WBEwccSEDQw"><i class="fab fa-youtube"></i> YouTube</a>
