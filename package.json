@@ -11,7 +11,7 @@
     "preview": "npm run build && serve -s dist"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "foundation-sites": "^6.6.3",
     "jquery": "^3.5.1",
