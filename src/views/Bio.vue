@@ -19,5 +19,4 @@ export default {
         this.getPage(6);
     }
 }
-
 </script>
